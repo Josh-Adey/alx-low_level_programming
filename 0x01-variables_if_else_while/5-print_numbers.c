@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 /**
- * main -Prints thew numbers since 0 to 9
+ * main - Prints the numbers from 0 to 9
  *
- * Returns: Always (Success)
+ * Return: Always (Success)
  */
 int main(void)
 {
-	char c;
+	char n;
 
 	for (n = '0'; n <= '9'; n++)
 	{
