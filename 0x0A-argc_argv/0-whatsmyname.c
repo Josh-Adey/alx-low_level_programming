@@ -1,8 +1,8 @@
 #include "main.h"
-#include <stdio>
+#include <stdio.h>
 
 /**
- * main - Prints its name
+ * main - prints its name
  * @argc: argument count
  * @argv: argument vector
  *
@@ -10,9 +10,8 @@
  */
 int main(int argc, char *argv[])
 {
-	(void) argc;
-	printf("%s\n", char *argv[0]);
-
+	(void);
+	printf("%s\n", argv[0]);
 
 	return (0);
 }
