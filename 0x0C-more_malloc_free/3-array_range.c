@@ -1,7 +1,8 @@
 #include "main.h"
 #include <stdlib.h>
 
-/**array_range - creates an array of integers.
+/**
+ * array_range - creates an array of integers.
  * @min: minimum value.
  * @max: maximum value.
  *
@@ -9,7 +10,7 @@
  * if man > mix, returns NULL.
  * if malloc fails, returns NULL.
  */
-t *array_range(int min, int max)
+int *array_range(int min, int max)
 {
 	int *ar;
 	int i;
